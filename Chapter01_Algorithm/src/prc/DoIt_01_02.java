@@ -5,6 +5,8 @@ import java.util.Scanner;
 class DoIt_01_02 {
 	 
 	static int max(int a, int b, int c) {
+		// --- 리턴값이 존재하는경우 데이터타입(int...)의 작성 필요
+		// 반환값의 자료형이 void인 메서드는 값을 반환하지 않는다
 		 int max = a;
 		 if (b > max)
 			 max = b;
