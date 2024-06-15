@@ -16,9 +16,8 @@ class DoIt_01_04 {
 				return b;			
 		}
 		else {
-			if ( c <= a ) {// && a < b
+			if ( c <= a ) // && a < b
 				return a;
-			}
 			else if ( c <= b ) // a < c
 				return c; 
 			else
